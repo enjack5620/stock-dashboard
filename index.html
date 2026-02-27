@@ -382,6 +382,7 @@
         </div>
         
         <!-- 自選股 -->
+        <div style="text-align:center; margin-bottom:8px; color:#888; font-size:0.9rem;">👆 點擊切換自選股 (最多2檔)</div>
         <div class="quick-stocks" id="quickStocks">
             <button class="quick-btn active" data-code="2330">2330 台積電</button>
             <button class="quick-btn" data-code="2317">2317 鴻海</button>
@@ -441,7 +442,7 @@
                 document.getElementById('twii').textContent = market.twii.toLocaleString();
                 const twiiChange = market.changePercent || 0;
                 const twiiEl = document.getElementById('twiiChange');
-                twiiEl.textContent = `${twiiChange > 0 ? '▲' : '▼'} ${twiiChange}%`;
+                twiiEl.textContent = `${twiiChange > 0 ? '▲' : '▼'} ${twiiChange.toFixed(2)}%`;
                 twiiEl.className = `market-value ${twiiChange >= 0 ? '' : 'down'}`;
                 
                 const updateTime = stockData.lastUpdate ? new Date(stockData.lastUpdate).toLocaleString('zh-TW') : new Date().toLocaleString('zh-TW');
@@ -570,7 +571,7 @@
                     <div class="price-section">
                         <div>
                             <div class="current-price ${priceClass}">${stock.price.toLocaleString()} 元</div>
-                            <span class="change ${changeClass}">${changeIcon} ${stock.change} (${stock.changePercent}%)</span>
+                            <span class="change ${changeClass}">${changeIcon} ${stock.change} (${(stock.changePercent || 0).toFixed(2)}%)</span>
                         </div>
                     </div>
                     
@@ -630,8 +631,8 @@
                             <span class="correlation-badge ${sectorBadge}">${sectorStatus}</span>
                         </div>
                         <div class="correlation-data">
-                            <div class="correlation-item"><div class="correlation-label">族群</div><div class="correlation-value ${(stock.sectorChange || 0) >= 0 ? 'price-up' : 'price-down'}">${(stock.sectorChange || 0) >= 0 ? '+' : ''}${stock.sectorChange || 0}%</div></div>
-                            <div class="correlation-item"><div class="correlation-label">個股</div><div class="correlation-value ${stock.changePercent >= 0 ? 'price-up' : 'price-down'}">${stock.changePercent >= 0 ? '+' : ''}${stock.changePercent}%</div></div>
+                            <div class="correlation-item"><div class="correlation-label">族群</div><div class="correlation-value ${(stock.sectorChange || 0) >= 0 ? 'price-up' : 'price-down'}">${(stock.sectorChange || 0) >= 0 ? '+' : ''}${(stock.sectorChange || 0).toFixed(2)}%</div></div>
+                            <div class="correlation-item"><div class="correlation-label">個股</div><div class="correlation-value ${stock.changePercent >= 0 ? 'price-up' : 'price-down'}">${stock.changePercent >= 0 ? '+' : ''}${(stock.changePercent || 0).toFixed(2)}%</div></div>
                             <div class="correlation-item"><div class="correlation-label">差異</div><div class="correlation-value ${sectorDiff >= 0 ? 'price-up' : 'price-down'}">${sectorDiff >= 0 ? '+' : ''}${sectorDiff.toFixed(2)}%</div></div>
                         </div>
                         <div class="diff-bar"><div class="diff-center"></div><div class="diff-marker" style="left: ${sectorPos}%"></div></div>
@@ -644,8 +645,8 @@
                             <span class="correlation-badge ${marketBadge}">${marketStatus}</span>
                         </div>
                         <div class="correlation-data">
-                            <div class="correlation-item"><div class="correlation-label">大盤</div><div class="correlation-value ${marketChange >= 0 ? 'price-up' : 'price-down'}">${marketChange >= 0 ? '+' : ''}${marketChange}%</div></div>
-                            <div class="correlation-item"><div class="correlation-label">個股</div><div class="correlation-value ${stock.changePercent >= 0 ? 'price-up' : 'price-down'}">${stock.changePercent >= 0 ? '+' : ''}${stock.changePercent}%</div></div>
+                            <div class="correlation-item"><div class="correlation-label">大盤</div><div class="correlation-value ${marketChange >= 0 ? 'price-up' : 'price-down'}">${marketChange >= 0 ? '+' : ''}${marketChange.toFixed(2)}%</div></div>
+                            <div class="correlation-item"><div class="correlation-label">個股</div><div class="correlation-value ${stock.changePercent >= 0 ? 'price-up' : 'price-down'}">${stock.changePercent >= 0 ? '+' : ''}${(stock.changePercent || 0).toFixed(2)}%</div></div>
                             <div class="correlation-item"><div class="correlation-label">差異</div><div class="correlation-value ${marketDiff >= 0 ? 'price-up' : 'price-down'}">${marketDiff >= 0 ? '+' : ''}${marketDiff.toFixed(2)}%</div></div>
                         </div>
                         <div class="diff-bar"><div class="diff-center"></div><div class="diff-marker" style="left: ${marketPos}%"></div></div>

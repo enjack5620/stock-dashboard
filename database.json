@@ -1,0 +1,4961 @@
+{
+  "version": "2026-02-27",
+  "lastUpdate": "2026-02-27T15:46:56.344Z",
+  "total": 189,
+  "stocks": [
+    {
+      "code": "2330",
+      "name": "台積電",
+      "sector": "半導體",
+      "eps": 60.5,
+      "dividend": 4.5,
+      "pe": 32.93,
+      "marketCap": 5200000000000,
+      "price": 1995,
+      "change": -20,
+      "changePercent": -0.9925558312655087,
+      "volume": 62653060,
+      "fairPrice": {
+        "per15": 908,
+        "per20": 1210,
+        "per25": 1513,
+        "per30": 1815,
+        "dividend3": 150,
+        "dividend4": 113
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "46.5"
+      },
+      "dividendYield": "0.23"
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "sector": "半導體",
+      "eps": 60,
+      "dividend": 54,
+      "pe": 28.4,
+      "marketCap": 2500000000000,
+      "price": 1945,
+      "change": 75,
+      "changePercent": 4.010695187165775,
+      "volume": 14443759,
+      "fairPrice": {
+        "per15": 900,
+        "per20": 1200,
+        "per25": 1500,
+        "per30": 1800,
+        "dividend3": 1800,
+        "dividend4": 1350
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "44.1"
+      },
+      "dividendYield": "2.78"
+    },
+    {
+      "code": "3034",
+      "name": "聯詠",
+      "sector": "半導體",
+      "eps": 37,
+      "dividend": 12,
+      "pe": 18.5,
+      "marketCap": 420000000000,
+      "price": 393,
+      "change": 6,
+      "changePercent": 1.550387596899225,
+      "volume": 6321865,
+      "fairPrice": {
+        "per15": 555,
+        "per20": 740,
+        "per25": 925,
+        "per30": 1110,
+        "dividend3": 400,
+        "dividend4": 300
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-52.8"
+      },
+      "dividendYield": "3.05"
+    },
+    {
+      "code": "3443",
+      "name": "創意",
+      "sector": "半導體",
+      "eps": 62.5,
+      "dividend": 15,
+      "pe": 25.3,
+      "marketCap": 210000000000,
+      "price": 2770,
+      "change": 195,
+      "changePercent": 7.572815533980583,
+      "volume": 5010280,
+      "fairPrice": {
+        "per15": 938,
+        "per20": 1250,
+        "per25": 1563,
+        "per30": 1875,
+        "dividend3": 500,
+        "dividend4": 375
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "96.9"
+      },
+      "dividendYield": "0.54"
+    },
+    {
+      "code": "2379",
+      "name": "瑞昱",
+      "sector": "半導體",
+      "eps": 25.7,
+      "dividend": 9,
+      "pe": 22.8,
+      "marketCap": 295000000000,
+      "price": 481.5,
+      "change": 7,
+      "changePercent": 1.4752370916754478,
+      "volume": 4827872,
+      "fairPrice": {
+        "per15": 386,
+        "per20": 514,
+        "per25": 643,
+        "per30": 771,
+        "dividend3": 300,
+        "dividend4": 225
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-16.8"
+      },
+      "dividendYield": "1.87"
+    },
+    {
+      "code": "6415",
+      "name": "矽力-KY",
+      "sector": "半導體",
+      "eps": 45,
+      "dividend": 8,
+      "pe": 35,
+      "marketCap": 180000000000,
+      "price": 281,
+      "change": 2,
+      "changePercent": 0.7168458781362007,
+      "volume": 5104673,
+      "fairPrice": {
+        "per15": 675,
+        "per20": 900,
+        "per25": 1125,
+        "per30": 1350,
+        "dividend3": 267,
+        "dividend4": 200
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-72.2"
+      },
+      "dividendYield": "2.85"
+    },
+    {
+      "code": "8150",
+      "name": "南茂",
+      "sector": "半導體",
+      "eps": 8.5,
+      "dividend": 3.2,
+      "pe": 15,
+      "marketCap": 45000000000,
+      "price": 71.5,
+      "change": 6.5,
+      "changePercent": 10,
+      "volume": 121034066,
+      "fairPrice": {
+        "per15": 128,
+        "per20": 170,
+        "per25": 213,
+        "per30": 255,
+        "dividend3": 107,
+        "dividend4": 80
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-62.7"
+      },
+      "dividendYield": "4.48"
+    },
+    {
+      "code": "2317",
+      "name": "鴻海",
+      "sector": "電子組裝",
+      "eps": 13.3,
+      "dividend": 5.6,
+      "pe": 18.5,
+      "marketCap": 3400000000000,
+      "price": 243,
+      "change": -3.5,
+      "changePercent": -1.4198782961460445,
+      "volume": 120259823,
+      "fairPrice": {
+        "per15": 200,
+        "per20": 266,
+        "per25": 333,
+        "per30": 399,
+        "dividend3": 187,
+        "dividend4": 140
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-18.9"
+      },
+      "dividendYield": "2.30"
+    },
+    {
+      "code": "2382",
+      "name": "廣達",
+      "sector": "電子組裝",
+      "eps": 14.7,
+      "dividend": 4.2,
+      "pe": 22.3,
+      "marketCap": 1200000000000,
+      "price": 291.5,
+      "change": -6,
+      "changePercent": -2.0168067226890756,
+      "volume": 24802576,
+      "fairPrice": {
+        "per15": 221,
+        "per20": 294,
+        "per25": 368,
+        "per30": 441,
+        "dividend3": 140,
+        "dividend4": 105
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-11.9"
+      },
+      "dividendYield": "1.44"
+    },
+    {
+      "code": "6669",
+      "name": "緯穎",
+      "sector": "電子組裝",
+      "eps": 55,
+      "dividend": 16,
+      "pe": 20,
+      "marketCap": 350000000000,
+      "price": 4000,
+      "change": -60,
+      "changePercent": -1.477832512315271,
+      "volume": 2807534,
+      "fairPrice": {
+        "per15": 825,
+        "per20": 1100,
+        "per25": 1375,
+        "per30": 1650,
+        "dividend3": 533,
+        "dividend4": 400
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "223.2"
+      },
+      "dividendYield": "0.40"
+    },
+    {
+      "code": "2308",
+      "name": "台達電",
+      "sector": "電子零組件",
+      "eps": 18.6,
+      "dividend": 5,
+      "pe": 26.8,
+      "marketCap": 1300000000000,
+      "price": 1430,
+      "change": -5,
+      "changePercent": -0.34843205574912894,
+      "volume": 17273684,
+      "fairPrice": {
+        "per15": 279,
+        "per20": 372,
+        "per25": 465,
+        "per30": 558,
+        "dividend3": 167,
+        "dividend4": 125
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "241.7"
+      },
+      "dividendYield": "0.35"
+    },
+    {
+      "code": "2474",
+      "name": "可成",
+      "sector": "電子零組件",
+      "eps": 17.6,
+      "dividend": 8,
+      "pe": 15.2,
+      "marketCap": 185000000000,
+      "price": 191.5,
+      "change": -1,
+      "changePercent": -0.5194805194805194,
+      "volume": 4919944,
+      "fairPrice": {
+        "per15": 264,
+        "per20": 352,
+        "per25": 440,
+        "per30": 528,
+        "dividend3": 267,
+        "dividend4": 200
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-51.6"
+      },
+      "dividendYield": "4.18"
+    },
+    {
+      "code": "2327",
+      "name": "國巨",
+      "sector": "電子零組件",
+      "eps": 28,
+      "dividend": 12,
+      "pe": 12,
+      "marketCap": 180000000000,
+      "price": 298,
+      "change": -2,
+      "changePercent": -0.6666666666666667,
+      "volume": 46554662,
+      "fairPrice": {
+        "per15": 420,
+        "per20": 560,
+        "per25": 700,
+        "per30": 840,
+        "dividend3": 400,
+        "dividend4": 300
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-52.7"
+      },
+      "dividendYield": "4.03"
+    },
+    {
+      "code": "2383",
+      "name": "台光電",
+      "sector": "電子零組件",
+      "eps": 22,
+      "dividend": 5,
+      "pe": 18,
+      "marketCap": 95000000000,
+      "price": 2440,
+      "change": 20,
+      "changePercent": 0.8264462809917356,
+      "volume": 4613938,
+      "fairPrice": {
+        "per15": 330,
+        "per20": 440,
+        "per25": 550,
+        "per30": 660,
+        "dividend3": 167,
+        "dividend4": 125
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "392.9"
+      },
+      "dividendYield": "0.20"
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "sector": "電子零組件",
+      "eps": 8.5,
+      "dividend": 2.5,
+      "pe": 16,
+      "marketCap": 55000000000,
+      "price": 1765,
+      "change": 90,
+      "changePercent": 5.3731343283582085,
+      "volume": 10497647,
+      "fairPrice": {
+        "per15": 128,
+        "per20": 170,
+        "per25": 213,
+        "per30": 255,
+        "dividend3": 83,
+        "dividend4": 63
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "821.7"
+      },
+      "dividendYield": "0.14"
+    },
+    {
+      "code": "8046",
+      "name": "南電",
+      "sector": "電子零組件",
+      "eps": 12,
+      "dividend": 4,
+      "pe": 14,
+      "marketCap": 85000000000,
+      "price": 555,
+      "change": 2,
+      "changePercent": 0.3616636528028933,
+      "volume": 29671059,
+      "fairPrice": {
+        "per15": 180,
+        "per20": 240,
+        "per25": 300,
+        "per30": 360,
+        "dividend3": 133,
+        "dividend4": 100
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "105.6"
+      },
+      "dividendYield": "0.72"
+    },
+    {
+      "code": "2357",
+      "name": "華碩",
+      "sector": "品牌",
+      "eps": 34.2,
+      "dividend": 18,
+      "pe": 14.2,
+      "marketCap": 360000000000,
+      "price": 532,
+      "change": 7,
+      "changePercent": 1.3333333333333335,
+      "volume": 4650763,
+      "fairPrice": {
+        "per15": 513,
+        "per20": 684,
+        "per25": 855,
+        "per30": 1026,
+        "dividend3": 600,
+        "dividend4": 450
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-30.9"
+      },
+      "dividendYield": "3.38"
+    },
+    {
+      "code": "2376",
+      "name": "微星",
+      "sector": "品牌",
+      "eps": 25,
+      "dividend": 12,
+      "pe": 13,
+      "marketCap": 180000000000,
+      "price": 239.5,
+      "change": 4.5,
+      "changePercent": 1.9148936170212765,
+      "volume": 6640860,
+      "fairPrice": {
+        "per15": 375,
+        "per20": 500,
+        "per25": 625,
+        "per30": 750,
+        "dividend3": 400,
+        "dividend4": 300
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-57.4"
+      },
+      "dividendYield": "5.01"
+    },
+    {
+      "code": "2401",
+      "name": "凌陽",
+      "sector": "IC設計",
+      "eps": 3.5,
+      "dividend": 1.5,
+      "pe": 12,
+      "marketCap": 28000000000,
+      "price": 23.15,
+      "change": 0.5499999999999972,
+      "changePercent": 2.433628318584058,
+      "volume": 3044534,
+      "fairPrice": {
+        "per15": 53,
+        "per20": 70,
+        "per25": 88,
+        "per30": 105,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-70.7"
+      },
+      "dividendYield": "6.48"
+    },
+    {
+      "code": "2458",
+      "name": "義隆電",
+      "sector": "IC設計",
+      "eps": 8,
+      "dividend": 4,
+      "pe": 14,
+      "marketCap": 45000000000,
+      "price": 122,
+      "change": 2.5,
+      "changePercent": 2.092050209205021,
+      "volume": 4318874,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 133,
+        "dividend4": 100
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-32.2"
+      },
+      "dividendYield": "3.28"
+    },
+    {
+      "code": "3033",
+      "name": "威盛",
+      "sector": "IC設計",
+      "eps": 2.5,
+      "dividend": 0.8,
+      "pe": 25,
+      "marketCap": 35000000000,
+      "price": 31.85,
+      "change": 0.10000000000000142,
+      "changePercent": 0.3149606299212643,
+      "volume": 4476944,
+      "fairPrice": {
+        "per15": 38,
+        "per20": 50,
+        "per25": 63,
+        "per30": 75,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-43.6"
+      },
+      "dividendYield": "2.51"
+    },
+    {
+      "code": "2395",
+      "name": "研華",
+      "sector": "工業電腦",
+      "eps": 19.8,
+      "dividend": 8.5,
+      "pe": 21.5,
+      "marketCap": 390000000000,
+      "price": 336.5,
+      "change": 3.5,
+      "changePercent": 1.0510510510510511,
+      "volume": 5673441,
+      "fairPrice": {
+        "per15": 297,
+        "per20": 396,
+        "per25": 495,
+        "per30": 594,
+        "dividend3": 283,
+        "dividend4": 213
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-24.5"
+      },
+      "dividendYield": "2.53"
+    },
+    {
+      "code": "2881",
+      "name": "富邦金",
+      "sector": "金融",
+      "eps": 8.5,
+      "dividend": 3.5,
+      "pe": 10,
+      "marketCap": 1800000000000,
+      "price": 94.2,
+      "change": 1.2999999999999972,
+      "changePercent": 1.3993541442411164,
+      "volume": 34825685,
+      "fairPrice": {
+        "per15": 128,
+        "per20": 170,
+        "per25": 213,
+        "per30": 255,
+        "dividend3": 117,
+        "dividend4": 88
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-50.8"
+      },
+      "dividendYield": "3.72"
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "sector": "金融",
+      "eps": 7.2,
+      "dividend": 2.8,
+      "pe": 11,
+      "marketCap": 1600000000000,
+      "price": 79.7,
+      "change": 2.799999999999997,
+      "changePercent": 3.6410923276983054,
+      "volume": 67306042,
+      "fairPrice": {
+        "per15": 108,
+        "per20": 144,
+        "per25": 180,
+        "per30": 216,
+        "dividend3": 93,
+        "dividend4": 70
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-50.8"
+      },
+      "dividendYield": "3.51"
+    },
+    {
+      "code": "2883",
+      "name": "開發金",
+      "sector": "金融",
+      "eps": 2.5,
+      "dividend": 1.2,
+      "pe": 12,
+      "marketCap": 380000000000,
+      "price": 21.95,
+      "change": 1.0500000000000007,
+      "changePercent": 5.023923444976081,
+      "volume": 153746781,
+      "fairPrice": {
+        "per15": 38,
+        "per20": 50,
+        "per25": 63,
+        "per30": 75,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-61.2"
+      },
+      "dividendYield": "5.47"
+    },
+    {
+      "code": "2884",
+      "name": "玉山金",
+      "sector": "金融",
+      "eps": 2.8,
+      "dividend": 1.5,
+      "pe": 14,
+      "marketCap": 420000000000,
+      "price": 35.1,
+      "change": 0.14999999999999858,
+      "changePercent": 0.4291845493562191,
+      "volume": 95832025,
+      "fairPrice": {
+        "per15": 42,
+        "per20": 56,
+        "per25": 70,
+        "per30": 84,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-44.3"
+      },
+      "dividendYield": "4.27"
+    },
+    {
+      "code": "2885",
+      "name": "元大金",
+      "sector": "金融",
+      "eps": 3.8,
+      "dividend": 2,
+      "pe": 12,
+      "marketCap": 650000000000,
+      "price": 49.15,
+      "change": 1.8999999999999986,
+      "changePercent": 4.021164021164019,
+      "volume": 56894840,
+      "fairPrice": {
+        "per15": 57,
+        "per20": 76,
+        "per25": 95,
+        "per30": 114,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-42.5"
+      },
+      "dividendYield": "4.07"
+    },
+    {
+      "code": "2886",
+      "name": "兆豐金",
+      "sector": "金融",
+      "eps": 4.2,
+      "dividend": 2.2,
+      "pe": 11,
+      "marketCap": 580000000000,
+      "price": 40.55,
+      "change": null,
+      "changePercent": null,
+      "volume": 30768194,
+      "fairPrice": {
+        "per15": 63,
+        "per20": 84,
+        "per25": 105,
+        "per30": 126,
+        "dividend3": 73,
+        "dividend4": 55
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-57.1"
+      },
+      "dividendYield": "5.43"
+    },
+    {
+      "code": "2887",
+      "name": "台新金",
+      "sector": "金融",
+      "eps": 2.2,
+      "dividend": 1.3,
+      "pe": 13,
+      "marketCap": 320000000000,
+      "price": 25.6,
+      "change": 0.7000000000000028,
+      "changePercent": 2.8112449799196906,
+      "volume": 183065619,
+      "fairPrice": {
+        "per15": 33,
+        "per20": 44,
+        "per25": 55,
+        "per30": 66,
+        "dividend3": 43,
+        "dividend4": 33
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-48.3"
+      },
+      "dividendYield": "5.08"
+    },
+    {
+      "code": "2891",
+      "name": "中信金",
+      "sector": "金融",
+      "eps": 3,
+      "dividend": 1.8,
+      "pe": 11,
+      "marketCap": 450000000000,
+      "price": 55.9,
+      "change": 2.3999999999999986,
+      "changePercent": 4.485981308411213,
+      "volume": 99366629,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 60,
+        "dividend4": 45
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-17.2"
+      },
+      "dividendYield": "3.22"
+    },
+    {
+      "code": "5871",
+      "name": "中租-KY",
+      "sector": "金融",
+      "eps": 15,
+      "dividend": 6,
+      "pe": 14,
+      "marketCap": 380000000000,
+      "price": 104,
+      "change": -1.5,
+      "changePercent": -1.4218009478672986,
+      "volume": 8587486,
+      "fairPrice": {
+        "per15": 225,
+        "per20": 300,
+        "per25": 375,
+        "per30": 450,
+        "dividend3": 200,
+        "dividend4": 150
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-69.2"
+      },
+      "dividendYield": "5.77"
+    },
+    {
+      "code": "1216",
+      "name": "統一",
+      "sector": "食品",
+      "eps": 3.8,
+      "dividend": 3.2,
+      "pe": 21.5,
+      "marketCap": 460000000000,
+      "price": 72.5,
+      "change": -2.200000000000003,
+      "changePercent": -2.945113788487286,
+      "volume": 25526090,
+      "fairPrice": {
+        "per15": 57,
+        "per20": 76,
+        "per25": 95,
+        "per30": 114,
+        "dividend3": 107,
+        "dividend4": 80
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-15.2"
+      },
+      "dividendYield": "4.41"
+    },
+    {
+      "code": "1301",
+      "name": "台塑",
+      "sector": "化工",
+      "eps": 8,
+      "dividend": 3.5,
+      "pe": 12,
+      "marketCap": 680000000000,
+      "price": 51.6,
+      "change": -1.7999999999999972,
+      "changePercent": -3.3707865168539275,
+      "volume": 68737393,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 117,
+        "dividend4": 88
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-71.3"
+      },
+      "dividendYield": "6.78"
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "sector": "化工",
+      "eps": 6.5,
+      "dividend": 3,
+      "pe": 11,
+      "marketCap": 520000000000,
+      "price": 91.8,
+      "change": -3.1000000000000085,
+      "changePercent": -3.2665964172813573,
+      "volume": 133668806,
+      "fairPrice": {
+        "per15": 98,
+        "per20": 130,
+        "per25": 163,
+        "per30": 195,
+        "dividend3": 100,
+        "dividend4": 75
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-37.3"
+      },
+      "dividendYield": "3.27"
+    },
+    {
+      "code": "1605",
+      "name": "中興電",
+      "sector": "電機",
+      "eps": 5.5,
+      "dividend": 2,
+      "pe": 28.5,
+      "marketCap": 95000000000,
+      "price": 36.75,
+      "change": 0.6499999999999986,
+      "changePercent": 1.8005540166204945,
+      "volume": 41255398,
+      "fairPrice": {
+        "per15": 83,
+        "per20": 110,
+        "per25": 138,
+        "per30": 165,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-70.4"
+      },
+      "dividendYield": "5.44"
+    },
+    {
+      "code": "1515",
+      "name": "華城",
+      "sector": "電機",
+      "eps": 6,
+      "dividend": 2,
+      "pe": 22,
+      "marketCap": 45000000000,
+      "price": 26.45,
+      "change": -0.5500000000000007,
+      "changePercent": -2.0370370370370394,
+      "volume": 386440,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-80.4"
+      },
+      "dividendYield": "7.56"
+    },
+    {
+      "code": "1536",
+      "name": "和大",
+      "sector": "汽車",
+      "eps": 4.5,
+      "dividend": 2,
+      "pe": 15,
+      "marketCap": 32000000000,
+      "price": 61.1,
+      "change": -0.10000000000000142,
+      "changePercent": -0.16339869281045985,
+      "volume": 1615120,
+      "fairPrice": {
+        "per15": 68,
+        "per20": 90,
+        "per25": 113,
+        "per30": 135,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-39.8"
+      },
+      "dividendYield": "3.27"
+    },
+    {
+      "code": "2207",
+      "name": "和泰車",
+      "sector": "汽車",
+      "eps": 45,
+      "dividend": 18,
+      "pe": 12,
+      "marketCap": 280000000000,
+      "price": 585,
+      "change": 28,
+      "changePercent": 5.026929982046679,
+      "volume": 1168243,
+      "fairPrice": {
+        "per15": 675,
+        "per20": 900,
+        "per25": 1125,
+        "per30": 1350,
+        "dividend3": 600,
+        "dividend4": 450
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-42.2"
+      },
+      "dividendYield": "3.08"
+    },
+    {
+      "code": "2603",
+      "name": "長榮",
+      "sector": "航運",
+      "eps": 35,
+      "dividend": 10,
+      "pe": 8,
+      "marketCap": 180000000000,
+      "price": 197,
+      "change": 5,
+      "changePercent": 2.604166666666667,
+      "volume": 25207597,
+      "fairPrice": {
+        "per15": 525,
+        "per20": 700,
+        "per25": 875,
+        "per30": 1050,
+        "dividend3": 333,
+        "dividend4": 250
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-75.0"
+      },
+      "dividendYield": "5.08"
+    },
+    {
+      "code": "2609",
+      "name": "陽明",
+      "sector": "航運",
+      "eps": 15,
+      "dividend": 5,
+      "pe": 7,
+      "marketCap": 120000000000,
+      "price": 57.4,
+      "change": 1.1000000000000014,
+      "changePercent": 1.953818827708706,
+      "volume": 33142426,
+      "fairPrice": {
+        "per15": 225,
+        "per20": 300,
+        "per25": 375,
+        "per30": 450,
+        "dividend3": 167,
+        "dividend4": 125
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-83.0"
+      },
+      "dividendYield": "8.71"
+    },
+    {
+      "code": "2615",
+      "name": "萬海",
+      "sector": "航運",
+      "eps": 18,
+      "dividend": 6,
+      "pe": 9,
+      "marketCap": 95000000000,
+      "price": 76.4,
+      "change": null,
+      "changePercent": null,
+      "volume": 10814050,
+      "fairPrice": {
+        "per15": 270,
+        "per20": 360,
+        "per25": 450,
+        "per30": 540,
+        "dividend3": 200,
+        "dividend4": 150
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-81.1"
+      },
+      "dividendYield": "7.85"
+    },
+    {
+      "code": "2618",
+      "name": "長榮航",
+      "sector": "航運",
+      "eps": 4,
+      "dividend": 1.8,
+      "pe": 12,
+      "marketCap": 180000000000,
+      "price": 38,
+      "change": 0.04999999999999716,
+      "changePercent": 0.13175230566534166,
+      "volume": 51418395,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 60,
+        "dividend4": 45
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-57.8"
+      },
+      "dividendYield": "4.74"
+    },
+    {
+      "code": "0050",
+      "name": "元大台灣50",
+      "sector": "ETF",
+      "eps": 10.9,
+      "dividend": 2.8,
+      "pe": 18.2,
+      "price": 81.15,
+      "change": 0.05000000000001137,
+      "changePercent": 0.061652281134415995,
+      "volume": 133252649,
+      "fairPrice": {
+        "per15": 164,
+        "per20": 218,
+        "per25": 273,
+        "per30": 327,
+        "dividend3": 93,
+        "dividend4": 70
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-66.9"
+      },
+      "dividendYield": "3.45"
+    },
+    {
+      "code": "0056",
+      "name": "元大高股息",
+      "sector": "ETF",
+      "eps": 2.5,
+      "dividend": 1.8,
+      "pe": 16,
+      "price": 40.29,
+      "change": 0.240000000000002,
+      "changePercent": 0.599250936329593,
+      "volume": 58370460,
+      "fairPrice": {
+        "per15": 38,
+        "per20": 50,
+        "per25": 63,
+        "per30": 75,
+        "dividend3": 60,
+        "dividend4": 45
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-28.7"
+      },
+      "dividendYield": "4.47"
+    },
+    {
+      "code": "00878",
+      "name": "國泰永續高股息",
+      "sector": "ETF",
+      "eps": 1.5,
+      "dividend": 1.2,
+      "pe": 15.6,
+      "price": 23.74,
+      "change": -0.26000000000000156,
+      "changePercent": -1.0833333333333397,
+      "volume": 90062524,
+      "fairPrice": {
+        "per15": 23,
+        "per20": 30,
+        "per25": 38,
+        "per30": 45,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-30.2"
+      },
+      "dividendYield": "5.05"
+    },
+    {
+      "code": "00929",
+      "name": "復華台灣科技優息",
+      "sector": "ETF",
+      "eps": 1.8,
+      "dividend": 1.4,
+      "pe": 14,
+      "price": 20.22,
+      "change": 0.23999999999999844,
+      "changePercent": 1.2012012012011934,
+      "volume": 142222050,
+      "fairPrice": {
+        "per15": 27,
+        "per20": 36,
+        "per25": 45,
+        "per30": 54,
+        "dividend3": 47,
+        "dividend4": 35
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-50.1"
+      },
+      "dividendYield": "6.92"
+    },
+    {
+      "code": "00940",
+      "name": "元大台灣價值高股息",
+      "sector": "ETF",
+      "eps": 2,
+      "dividend": 1.6,
+      "pe": 15,
+      "price": 10.01,
+      "change": 0.08999999999999986,
+      "changePercent": 0.9072580645161276,
+      "volume": 333082705,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 53,
+        "dividend4": 40
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-77.8"
+      },
+      "dividendYield": "15.98"
+    },
+    {
+      "code": "00631L",
+      "name": "元大台灣50正2",
+      "sector": "ETF",
+      "eps": 5,
+      "dividend": 1,
+      "pe": 20,
+      "price": 537.85,
+      "change": 3.9500000000000455,
+      "changePercent": 0.7398389211462906,
+      "volume": 4559506,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "378.1"
+      },
+      "dividendYield": "0.19"
+    },
+    {
+      "code": "6443",
+      "name": "元晶",
+      "sector": "綠能",
+      "eps": 3.8,
+      "dividend": 1.5,
+      "pe": 18,
+      "price": 45.1,
+      "change": 4.100000000000001,
+      "changePercent": 10.000000000000004,
+      "volume": 105653448,
+      "fairPrice": {
+        "per15": 57,
+        "per20": 76,
+        "per25": 95,
+        "per30": 114,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-47.3"
+      },
+      "dividendYield": "3.33"
+    },
+    {
+      "code": "8410",
+      "name": "森崴能源",
+      "sector": "綠能",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 16,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "8473",
+      "name": "雲豹能源",
+      "sector": "綠能",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 18,
+      "price": 38.8,
+      "change": 0.6999999999999957,
+      "changePercent": 1.837270341207338,
+      "volume": 789582,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-56.9"
+      },
+      "dividendYield": "3.87"
+    },
+    {
+      "code": "3231",
+      "name": "緯創",
+      "sector": "電子組裝",
+      "eps": 8,
+      "dividend": 3,
+      "pe": 16,
+      "price": 136,
+      "change": -2,
+      "changePercent": -1.4492753623188406,
+      "volume": 55741322,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 100,
+        "dividend4": 75
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-24.4"
+      },
+      "dividendYield": "2.21"
+    },
+    {
+      "code": "4952",
+      "name": "凌華",
+      "sector": "電子組裝",
+      "eps": 6,
+      "dividend": 2,
+      "pe": 14,
+      "price": 42.05,
+      "change": -0.05000000000000426,
+      "changePercent": -0.11876484560571085,
+      "volume": 459889,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-68.9"
+      },
+      "dividendYield": "4.76"
+    },
+    {
+      "code": "6278",
+      "name": "台表科",
+      "sector": "電子組裝",
+      "eps": 7,
+      "dividend": 2.5,
+      "pe": 12,
+      "price": 101.5,
+      "change": 0.5,
+      "changePercent": 0.49504950495049505,
+      "volume": 2920263,
+      "fairPrice": {
+        "per15": 105,
+        "per20": 140,
+        "per25": 175,
+        "per30": 210,
+        "dividend3": 83,
+        "dividend4": 63
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-35.6"
+      },
+      "dividendYield": "2.46"
+    },
+    {
+      "code": "6488",
+      "name": "玉晶光",
+      "sector": "電子組裝",
+      "eps": 5,
+      "dividend": 1.5,
+      "pe": 18,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "2369",
+      "name": "菱電",
+      "sector": "電子零組件",
+      "eps": 5,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": 28.55,
+      "change": 1.1000000000000014,
+      "changePercent": 4.007285974499094,
+      "volume": 22586214,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-74.6"
+      },
+      "dividendYield": "5.25"
+    },
+    {
+      "code": "2439",
+      "name": "美律",
+      "sector": "電子零組件",
+      "eps": 7,
+      "dividend": 2.5,
+      "pe": 15,
+      "price": 94.6,
+      "change": -3.8000000000000114,
+      "changePercent": -3.86178861788619,
+      "volume": 5053711,
+      "fairPrice": {
+        "per15": 105,
+        "per20": 140,
+        "per25": 175,
+        "per30": 210,
+        "dividend3": 83,
+        "dividend4": 63
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-39.9"
+      },
+      "dividendYield": "2.64"
+    },
+    {
+      "code": "3013",
+      "name": "健策",
+      "sector": "電子零組件",
+      "eps": 10,
+      "dividend": 3.5,
+      "pe": 16,
+      "price": 113,
+      "change": null,
+      "changePercent": null,
+      "volume": 2808267,
+      "fairPrice": {
+        "per15": 150,
+        "per20": 200,
+        "per25": 250,
+        "per30": 300,
+        "dividend3": 117,
+        "dividend4": 88
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-49.8"
+      },
+      "dividendYield": "3.10"
+    },
+    {
+      "code": "6105",
+      "name": "瑞傳",
+      "sector": "電子零組件",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6271",
+      "name": "同欣電",
+      "sector": "電子零組件",
+      "eps": 6,
+      "dividend": 2,
+      "pe": 14,
+      "price": 177,
+      "change": -12,
+      "changePercent": -6.349206349206349,
+      "volume": 27491481,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "31.1"
+      },
+      "dividendYield": "1.13"
+    },
+    {
+      "code": "6510",
+      "name": "精測",
+      "sector": "電子零組件",
+      "eps": 12,
+      "dividend": 4,
+      "pe": 20,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 180,
+        "per20": 240,
+        "per25": 300,
+        "per30": 360,
+        "dividend3": 133,
+        "dividend4": 100
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6716",
+      "name": "時碩",
+      "sector": "電子零組件",
+      "eps": 4,
+      "dividend": 1.2,
+      "pe": 14,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "8261",
+      "name": "富鼎",
+      "sector": "電子零組件",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 12,
+      "price": 98.4,
+      "change": 2.9000000000000057,
+      "changePercent": 3.0366492146596915,
+      "volume": 4455522,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-12.5"
+      },
+      "dividendYield": "2.03"
+    },
+    {
+      "code": "8271",
+      "name": "宇瞻",
+      "sector": "電子零組件",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 11,
+      "price": 121.5,
+      "change": 2,
+      "changePercent": 1.6736401673640167,
+      "volume": 6880432,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "35.0"
+      },
+      "dividendYield": "1.23"
+    },
+    {
+      "code": "2441",
+      "name": "超微",
+      "sector": "IC設計",
+      "eps": 4,
+      "dividend": 1,
+      "pe": 20,
+      "price": 95.9,
+      "change": 2.700000000000003,
+      "changePercent": 2.8969957081545097,
+      "volume": 9110050,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "6.6"
+      },
+      "dividendYield": "1.04"
+    },
+    {
+      "code": "2465",
+      "name": "彩富",
+      "sector": "IC設計",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 12,
+      "price": 53.6,
+      "change": 0.5,
+      "changePercent": 0.9416195856873822,
+      "volume": 320957,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-52.4"
+      },
+      "dividendYield": "3.73"
+    },
+    {
+      "code": "2481",
+      "name": "強茂",
+      "sector": "IC設計",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 15,
+      "price": 90.6,
+      "change": 2.8999999999999915,
+      "changePercent": 3.3067274800456,
+      "volume": 15259157,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "34.2"
+      },
+      "dividendYield": "1.10"
+    },
+    {
+      "code": "3014",
+      "name": "聯陽",
+      "sector": "IC設計",
+      "eps": 6,
+      "dividend": 2.5,
+      "pe": 14,
+      "price": 123,
+      "change": -0.5,
+      "changePercent": -0.4048582995951417,
+      "volume": 1070554,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 83,
+        "dividend4": 63
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-8.9"
+      },
+      "dividendYield": "2.03"
+    },
+    {
+      "code": "3016",
+      "name": "晶心科",
+      "sector": "IC設計",
+      "eps": 4,
+      "dividend": 1,
+      "pe": 22,
+      "price": 63,
+      "change": 4.399999999999999,
+      "changePercent": 7.508532423208189,
+      "volume": 6344311,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-30.0"
+      },
+      "dividendYield": "1.59"
+    },
+    {
+      "code": "3023",
+      "name": "建漢",
+      "sector": "IC設計",
+      "eps": 2,
+      "dividend": 0.5,
+      "pe": 18,
+      "price": 244,
+      "change": null,
+      "changePercent": null,
+      "volume": 2122856,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 17,
+        "dividend4": 13
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "442.2"
+      },
+      "dividendYield": "0.20"
+    },
+    {
+      "code": "6138",
+      "name": "欣去年同期",
+      "sector": "IC設計",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 13,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6251",
+      "name": "定穎",
+      "sector": "IC設計",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 14,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6569",
+      "name": "醫揚",
+      "sector": "IC設計",
+      "eps": 8,
+      "dividend": 3,
+      "pe": 16,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 100,
+        "dividend4": 75
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6573",
+      "name": "虹堡",
+      "sector": "IC設計",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": 14.65,
+      "change": 0.15000000000000036,
+      "changePercent": 1.0344827586206922,
+      "volume": 172679,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-83.7"
+      },
+      "dividendYield": "10.24"
+    },
+    {
+      "code": "2392",
+      "name": "精英",
+      "sector": "工業電腦",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 12,
+      "price": 39.7,
+      "change": -0.75,
+      "changePercent": -1.8541409147095178,
+      "volume": 1650175,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-41.2"
+      },
+      "dividendYield": "2.52"
+    },
+    {
+      "code": "2480",
+      "name": "敦吉",
+      "sector": "工業電腦",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 11,
+      "price": 147,
+      "change": 2,
+      "changePercent": 1.3793103448275863,
+      "volume": 475577,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "63.3"
+      },
+      "dividendYield": "1.02"
+    },
+    {
+      "code": "3022",
+      "name": "威強電",
+      "sector": "工業電腦",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 13,
+      "price": 60.1,
+      "change": null,
+      "changePercent": null,
+      "volume": 440017,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-46.6"
+      },
+      "dividendYield": "3.33"
+    },
+    {
+      "code": "3701",
+      "name": "大眾控",
+      "sector": "工業電腦",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 10,
+      "price": 58.9,
+      "change": -0.6000000000000014,
+      "changePercent": -1.0084033613445402,
+      "volume": 8166642,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-12.7"
+      },
+      "dividendYield": "1.70"
+    },
+    {
+      "code": "6112",
+      "name": "聚碩",
+      "sector": "工業電腦",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 14,
+      "price": 48.45,
+      "change": 4.400000000000006,
+      "changePercent": 9.988649262202056,
+      "volume": 3366544,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-56.9"
+      },
+      "dividendYield": "4.13"
+    },
+    {
+      "code": "6167",
+      "name": "晉泰",
+      "sector": "工業電腦",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6214",
+      "name": "精金",
+      "sector": "工業電腦",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 11,
+      "price": 115,
+      "change": 5,
+      "changePercent": 4.545454545454546,
+      "volume": 3102818,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "70.4"
+      },
+      "dividendYield": "0.87"
+    },
+    {
+      "code": "6233",
+      "name": "友通",
+      "sector": "工業電腦",
+      "eps": 6,
+      "dividend": 2.5,
+      "pe": 14,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 83,
+        "dividend4": 63
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6579",
+      "name": "芮特-KY",
+      "sector": "工業電腦",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 13,
+      "price": 116,
+      "change": 2,
+      "changePercent": 1.7543859649122806,
+      "volume": 367188,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "⚠️ 略高於合理",
+        "color": "#ffa502",
+        "premium": "28.9"
+      },
+      "dividendYield": "1.29"
+    },
+    {
+      "code": "2888",
+      "name": "新光金",
+      "sector": "金融",
+      "eps": 1.8,
+      "dividend": 0.8,
+      "pe": 14,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 27,
+        "per20": 36,
+        "per25": 45,
+        "per30": 54,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "2890",
+      "name": "永豐金",
+      "sector": "金融",
+      "eps": 2.5,
+      "dividend": 1.2,
+      "pe": 12,
+      "price": 33.2,
+      "change": 0.45000000000000284,
+      "changePercent": 1.3740458015267263,
+      "volume": 55263274,
+      "fairPrice": {
+        "per15": 38,
+        "per20": 50,
+        "per25": 63,
+        "per30": 75,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-41.2"
+      },
+      "dividendYield": "3.61"
+    },
+    {
+      "code": "2892",
+      "name": "第一金",
+      "sector": "金融",
+      "eps": 2.8,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": 29.9,
+      "change": null,
+      "changePercent": null,
+      "volume": 69474062,
+      "fairPrice": {
+        "per15": 42,
+        "per20": 56,
+        "per25": 70,
+        "per30": 84,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-52.5"
+      },
+      "dividendYield": "5.02"
+    },
+    {
+      "code": "5876",
+      "name": "上海商銀",
+      "sector": "金融",
+      "eps": 4,
+      "dividend": 2,
+      "pe": 13,
+      "price": 40.15,
+      "change": -0.30000000000000426,
+      "changePercent": -0.7416563658838177,
+      "volume": 17752047,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-55.4"
+      },
+      "dividendYield": "4.98"
+    },
+    {
+      "code": "6005",
+      "name": "吳坤",
+      "sector": "金融",
+      "eps": 2,
+      "dividend": 1,
+      "pe": 12,
+      "price": 32.1,
+      "change": 0.8500000000000014,
+      "changePercent": 2.7200000000000046,
+      "volume": 9690731,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-28.7"
+      },
+      "dividendYield": "3.12"
+    },
+    {
+      "code": "6012",
+      "name": "新保",
+      "sector": "金融",
+      "eps": 3,
+      "dividend": 1.5,
+      "pe": 11,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "資料不足",
+        "color": "#888"
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6024",
+      "name": "群益期",
+      "sector": "金融",
+      "eps": 4,
+      "dividend": 2,
+      "pe": 12,
+      "price": 53.1,
+      "change": 0.3999999999999986,
+      "changePercent": 0.7590132827324451,
+      "volume": 590556,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-41.0"
+      },
+      "dividendYield": "3.77"
+    },
+    {
+      "code": "6030",
+      "name": "日盛金",
+      "sector": "金融",
+      "eps": 2,
+      "dividend": 1,
+      "pe": 13,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "1707",
+      "name": "葡萄王",
+      "sector": "食品",
+      "eps": 12,
+      "dividend": 6,
+      "pe": 18,
+      "price": 124,
+      "change": 0.5,
+      "changePercent": 0.4048582995951417,
+      "volume": 235700,
+      "fairPrice": {
+        "per15": 180,
+        "per20": 240,
+        "per25": 300,
+        "per30": 360,
+        "dividend3": 200,
+        "dividend4": 150
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-54.1"
+      },
+      "dividendYield": "4.84"
+    },
+    {
+      "code": "1717",
+      "name": "長興",
+      "sector": "化工",
+      "eps": 3,
+      "dividend": 1.2,
+      "pe": 11,
+      "price": 69,
+      "change": 6.200000000000003,
+      "changePercent": 9.872611464968157,
+      "volume": 113165930,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "2.2"
+      },
+      "dividendYield": "1.74"
+    },
+    {
+      "code": "1723",
+      "name": "中化",
+      "sector": "化工",
+      "eps": 3,
+      "dividend": 1.2,
+      "pe": 12,
+      "price": 72,
+      "change": -0.5,
+      "changePercent": -0.6896551724137931,
+      "volume": 603771,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "6.7"
+      },
+      "dividendYield": "1.67"
+    },
+    {
+      "code": "1730",
+      "name": "花仙子",
+      "sector": "食品",
+      "eps": 4,
+      "dividend": 2,
+      "pe": 15,
+      "price": 53.6,
+      "change": 0.10000000000000142,
+      "changePercent": 0.18691588785046995,
+      "volume": 64483,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-40.4"
+      },
+      "dividendYield": "3.73"
+    },
+    {
+      "code": "1732",
+      "name": "生達",
+      "sector": "化工",
+      "eps": 3,
+      "dividend": 1.5,
+      "pe": 13,
+      "price": 27.6,
+      "change": -0.09999999999999787,
+      "changePercent": -0.36101083032490205,
+      "volume": 186274,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-59.1"
+      },
+      "dividendYield": "5.43"
+    },
+    {
+      "code": "1735",
+      "name": "永信",
+      "sector": "食品",
+      "eps": 3,
+      "dividend": 1.5,
+      "pe": 13,
+      "price": 18.85,
+      "change": 1.7000000000000028,
+      "changePercent": 9.912536443148705,
+      "volume": 812198,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-72.1"
+      },
+      "dividendYield": "7.96"
+    },
+    {
+      "code": "1752",
+      "name": "台硝",
+      "sector": "化工",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 10,
+      "price": 37.1,
+      "change": 0.14999999999999858,
+      "changePercent": 0.40595399188091624,
+      "volume": 83622,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-17.6"
+      },
+      "dividendYield": "2.16"
+    },
+    {
+      "code": "1762",
+      "name": "中化生",
+      "sector": "食品",
+      "eps": 3,
+      "dividend": 1.2,
+      "pe": 14,
+      "price": 27.1,
+      "change": -0.29999999999999716,
+      "changePercent": -1.0948905109488947,
+      "volume": 75553,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-59.9"
+      },
+      "dividendYield": "4.43"
+    },
+    {
+      "code": "1773",
+      "name": "勝一",
+      "sector": "化工",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 12,
+      "price": 159,
+      "change": 4,
+      "changePercent": 2.5806451612903225,
+      "volume": 3104275,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "41.3"
+      },
+      "dividendYield": "1.26"
+    },
+    {
+      "code": "1776",
+      "name": "展宇",
+      "sector": "化工",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 12,
+      "price": 15.3,
+      "change": -0.049999999999998934,
+      "changePercent": -0.3257328990227944,
+      "volume": 56344,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-77.3"
+      },
+      "dividendYield": "6.54"
+    },
+    {
+      "code": "1305",
+      "name": "亞化",
+      "sector": "化工",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 10,
+      "price": 12.4,
+      "change": -0.40000000000000036,
+      "changePercent": -3.1250000000000027,
+      "volume": 4425750,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-86.2"
+      },
+      "dividendYield": "12.10"
+    },
+    {
+      "code": "1326",
+      "name": "台化",
+      "sector": "化工",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 12,
+      "price": 51,
+      "change": 1.7999999999999972,
+      "changePercent": 3.658536585365848,
+      "volume": 134668495,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-54.7"
+      },
+      "dividendYield": "3.92"
+    },
+    {
+      "code": "6505",
+      "name": "台塑化",
+      "sector": "化工",
+      "eps": 6,
+      "dividend": 2.5,
+      "pe": 11,
+      "price": 54.5,
+      "change": -1.5,
+      "changePercent": -2.6785714285714284,
+      "volume": 15622393,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 83,
+        "dividend4": 63
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-59.6"
+      },
+      "dividendYield": "4.59"
+    },
+    {
+      "code": "1513",
+      "name": "中興電",
+      "sector": "電機",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 18,
+      "price": 175.5,
+      "change": 5,
+      "changePercent": 2.932551319648094,
+      "volume": 16079202,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "160.0"
+      },
+      "dividendYield": "0.57"
+    },
+    {
+      "code": "1519",
+      "name": "華電",
+      "sector": "電機",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 14,
+      "price": 1070,
+      "change": 20,
+      "changePercent": 1.9047619047619049,
+      "volume": 10785560,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "2277.8"
+      },
+      "dividendYield": "0.07"
+    },
+    {
+      "code": "1528",
+      "name": "恩德",
+      "sector": "電機",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 12,
+      "price": 23.6,
+      "change": 0.15000000000000213,
+      "changePercent": 0.6396588486140816,
+      "volume": 6813573,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-65.0"
+      },
+      "dividendYield": "4.24"
+    },
+    {
+      "code": "1580",
+      "name": "新麥",
+      "sector": "電機",
+      "eps": 8,
+      "dividend": 3,
+      "pe": 14,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 100,
+        "dividend4": 75
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "1583",
+      "name": "程泰",
+      "sector": "電機",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 13,
+      "price": 49.7,
+      "change": 0.30000000000000426,
+      "changePercent": 0.6072874493927213,
+      "volume": 37530,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-44.8"
+      },
+      "dividendYield": "3.02"
+    },
+    {
+      "code": "1589",
+      "name": "F-永冠",
+      "sector": "電機",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 14,
+      "price": 12.4,
+      "change": -1.3499999999999996,
+      "changePercent": -9.818181818181817,
+      "volume": 230917,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-81.6"
+      },
+      "dividendYield": "8.06"
+    },
+    {
+      "code": "1590",
+      "name": "亞光",
+      "sector": "電機",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 15,
+      "price": 1205,
+      "change": 15,
+      "changePercent": 1.2605042016806722,
+      "volume": 1338887,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "1238.9"
+      },
+      "dividendYield": "0.12"
+    },
+    {
+      "code": "1597",
+      "name": "直得",
+      "sector": "電機",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 14,
+      "price": 78.3,
+      "change": 0.29999999999999716,
+      "changePercent": 0.384615384615381,
+      "volume": 283094,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-13.0"
+      },
+      "dividendYield": "1.92"
+    },
+    {
+      "code": "2015",
+      "name": "豐祥-KY",
+      "sector": "電機",
+      "eps": 6,
+      "dividend": 2.5,
+      "pe": 12,
+      "price": 67.7,
+      "change": null,
+      "changePercent": null,
+      "volume": 387178,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 83,
+        "dividend4": 63
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-49.9"
+      },
+      "dividendYield": "3.69"
+    },
+    {
+      "code": "4526",
+      "name": "東台",
+      "sector": "電機",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 13,
+      "price": 33.6,
+      "change": -1.6999999999999957,
+      "changePercent": -4.815864022662878,
+      "volume": 6291276,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-50.2"
+      },
+      "dividendYield": "2.98"
+    },
+    {
+      "code": "4532",
+      "name": "瑞智",
+      "sector": "電機",
+      "eps": 3,
+      "dividend": 1.2,
+      "pe": 11,
+      "price": 25.95,
+      "change": 0.09999999999999787,
+      "changePercent": 0.38684719535782536,
+      "volume": 971152,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-61.6"
+      },
+      "dividendYield": "4.62"
+    },
+    {
+      "code": "6607",
+      "name": "鼎炫-KY",
+      "sector": "電機",
+      "eps": 8,
+      "dividend": 3,
+      "pe": 15,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 100,
+        "dividend4": 75
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "2201",
+      "name": "裕隆",
+      "sector": "汽車",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 15,
+      "price": 30.75,
+      "change": -0.05000000000000071,
+      "changePercent": -0.16233766233766464,
+      "volume": 3321580,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-54.4"
+      },
+      "dividendYield": "3.25"
+    },
+    {
+      "code": "2227",
+      "name": "裕日車",
+      "sector": "汽車",
+      "eps": 12,
+      "dividend": 5,
+      "pe": 14,
+      "price": 56,
+      "change": 0.7999999999999972,
+      "changePercent": 1.4492753623188355,
+      "volume": 46368,
+      "fairPrice": {
+        "per15": 180,
+        "per20": 240,
+        "per25": 300,
+        "per30": 360,
+        "dividend3": 167,
+        "dividend4": 125
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-79.3"
+      },
+      "dividendYield": "8.93"
+    },
+    {
+      "code": "2231",
+      "name": "為升",
+      "sector": "汽車",
+      "eps": 8,
+      "dividend": 3,
+      "pe": 15,
+      "price": 95.4,
+      "change": -3.0999999999999943,
+      "changePercent": -3.147208121827405,
+      "volume": 395279,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 100,
+        "dividend4": 75
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-47.0"
+      },
+      "dividendYield": "3.14"
+    },
+    {
+      "code": "2344",
+      "name": "華孚",
+      "sector": "汽車",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 13,
+      "price": 122.5,
+      "change": 4.5,
+      "changePercent": 3.8135593220338984,
+      "volume": 180377246,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "81.5"
+      },
+      "dividendYield": "0.82"
+    },
+    {
+      "code": "4541",
+      "name": "江興",
+      "sector": "汽車",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "4551",
+      "name": "智伸科",
+      "sector": "汽車",
+      "eps": 6,
+      "dividend": 2.5,
+      "pe": 14,
+      "price": 125,
+      "change": 1.5,
+      "changePercent": 1.214574898785425,
+      "volume": 494614,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 83,
+        "dividend4": 63
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-7.4"
+      },
+      "dividendYield": "2.00"
+    },
+    {
+      "code": "4552",
+      "name": "F-英瑞",
+      "sector": "汽車",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 13,
+      "price": 23.65,
+      "change": -0.05000000000000071,
+      "changePercent": -0.21097046413502413,
+      "volume": 82929,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-73.7"
+      },
+      "dividendYield": "6.34"
+    },
+    {
+      "code": "2617",
+      "name": "陽明",
+      "sector": "航運",
+      "eps": 12,
+      "dividend": 4,
+      "pe": 8,
+      "price": 31.2,
+      "change": 0.4499999999999993,
+      "changePercent": 1.4634146341463392,
+      "volume": 1352422,
+      "fairPrice": {
+        "per15": 180,
+        "per20": 240,
+        "per25": 300,
+        "per30": 360,
+        "dividend3": 133,
+        "dividend4": 100
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-88.4"
+      },
+      "dividendYield": "12.82"
+    },
+    {
+      "code": "2633",
+      "name": "台灣高鐵",
+      "sector": "航運",
+      "eps": 3,
+      "dividend": 1.5,
+      "pe": 18,
+      "price": 27.05,
+      "change": -0.05000000000000071,
+      "changePercent": -0.1845018450184528,
+      "volume": 12482174,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-59.9"
+      },
+      "dividendYield": "5.55"
+    },
+    {
+      "code": "2642",
+      "name": "正德",
+      "sector": "航運",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 10,
+      "price": 24.85,
+      "change": 0.05000000000000071,
+      "changePercent": 0.2016129032258093,
+      "volume": 59905,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-44.8"
+      },
+      "dividendYield": "3.22"
+    },
+    {
+      "code": "5607",
+      "name": "遠雄港",
+      "sector": "航運",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 14,
+      "price": 55.7,
+      "change": 2.200000000000003,
+      "changePercent": 4.112149532710286,
+      "volume": 2337735,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-38.1"
+      },
+      "dividendYield": "2.69"
+    },
+    {
+      "code": "5608",
+      "name": "四維航",
+      "sector": "航運",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 11,
+      "price": 17.6,
+      "change": 0.05000000000000071,
+      "changePercent": 0.28490028490028896,
+      "volume": 2870552,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-73.9"
+      },
+      "dividendYield": "5.68"
+    },
+    {
+      "code": "5609",
+      "name": "中菲行",
+      "sector": "航運",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 12,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "2002",
+      "name": "中鋼",
+      "sector": "鋼鐵",
+      "eps": 3,
+      "dividend": 1.5,
+      "pe": 14,
+      "price": 20.75,
+      "change": -0.5,
+      "changePercent": -2.3529411764705883,
+      "volume": 78264955,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-69.3"
+      },
+      "dividendYield": "7.23"
+    },
+    {
+      "code": "2006",
+      "name": "東和鋼鐵",
+      "sector": "鋼鐵",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": 73.4,
+      "change": null,
+      "changePercent": null,
+      "volume": 3262113,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-18.4"
+      },
+      "dividendYield": "2.04"
+    },
+    {
+      "code": "2010",
+      "name": "春源",
+      "sector": "鋼鐵",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 11,
+      "price": 22.9,
+      "change": null,
+      "changePercent": null,
+      "volume": 1466730,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-66.1"
+      },
+      "dividendYield": "4.37"
+    },
+    {
+      "code": "2013",
+      "name": "中構",
+      "sector": "鋼鐵",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 10,
+      "price": 43.45,
+      "change": 0.4000000000000057,
+      "changePercent": 0.929152148664357,
+      "volume": 200788,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-51.7"
+      },
+      "dividendYield": "3.45"
+    },
+    {
+      "code": "2014",
+      "name": "中鴻",
+      "sector": "鋼鐵",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 12,
+      "price": 18.15,
+      "change": -0.6500000000000021,
+      "changePercent": -3.4574468085106496,
+      "volume": 10926831,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-59.7"
+      },
+      "dividendYield": "4.41"
+    },
+    {
+      "code": "2028",
+      "name": "威致",
+      "sector": "鋼鐵",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 10,
+      "price": 19.3,
+      "change": null,
+      "changePercent": null,
+      "volume": 93731,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-71.4"
+      },
+      "dividendYield": "5.18"
+    },
+    {
+      "code": "2030",
+      "name": "彰源",
+      "sector": "鋼鐵",
+      "eps": 3,
+      "dividend": 1.2,
+      "pe": 11,
+      "price": 16.5,
+      "change": -0.14999999999999858,
+      "changePercent": -0.9009009009008924,
+      "volume": 649600,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-75.6"
+      },
+      "dividendYield": "7.27"
+    },
+    {
+      "code": "2031",
+      "name": "新光鋼",
+      "sector": "鋼鐵",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 12,
+      "price": 39.25,
+      "change": -0.75,
+      "changePercent": -1.875,
+      "volume": 821243,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-65.1"
+      },
+      "dividendYield": "5.10"
+    },
+    {
+      "code": "2032",
+      "name": "春雨",
+      "sector": "鋼鐵",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 10,
+      "price": 16.4,
+      "change": -0.15000000000000213,
+      "changePercent": -0.9063444108761458,
+      "volume": 460358,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-75.7"
+      },
+      "dividendYield": "6.10"
+    },
+    {
+      "code": "5009",
+      "name": "榮剛",
+      "sector": "鋼鐵",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 11,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "5014",
+      "name": "東明-KY",
+      "sector": "鋼鐵",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "1101",
+      "name": "台泥",
+      "sector": "營建",
+      "eps": 3,
+      "dividend": 1.2,
+      "pe": 15,
+      "price": 26.4,
+      "change": -0.15000000000000213,
+      "changePercent": -0.5649717514124374,
+      "volume": 34969820,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-60.9"
+      },
+      "dividendYield": "4.55"
+    },
+    {
+      "code": "1102",
+      "name": "亞泥",
+      "sector": "營建",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": 35.85,
+      "change": 0.05000000000000426,
+      "changePercent": 0.13966480446928564,
+      "volume": 12759803,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-60.2"
+      },
+      "dividendYield": "4.18"
+    },
+    {
+      "code": "1103",
+      "name": "嘉泥",
+      "sector": "營建",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 14,
+      "price": 14.15,
+      "change": null,
+      "changePercent": null,
+      "volume": 227744,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-68.6"
+      },
+      "dividendYield": "5.65"
+    },
+    {
+      "code": "1104",
+      "name": "環泥",
+      "sector": "營建",
+      "eps": 3,
+      "dividend": 1.2,
+      "pe": 11,
+      "price": 30.05,
+      "change": -0.09999999999999787,
+      "changePercent": -0.3316749585406231,
+      "volume": 745649,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-55.5"
+      },
+      "dividendYield": "3.99"
+    },
+    {
+      "code": "1109",
+      "name": "信大",
+      "sector": "營建",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 10,
+      "price": 15.85,
+      "change": null,
+      "changePercent": null,
+      "volume": 136580,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-76.5"
+      },
+      "dividendYield": "6.31"
+    },
+    {
+      "code": "1110",
+      "name": "東泥",
+      "sector": "營建",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 12,
+      "price": 16.7,
+      "change": 0.25,
+      "changePercent": 1.5197568389057752,
+      "volume": 192000,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-62.9"
+      },
+      "dividendYield": "4.79"
+    },
+    {
+      "code": "1805",
+      "name": "大山",
+      "sector": "營建",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 10,
+      "price": 11.65,
+      "change": 0.05000000000000071,
+      "changePercent": 0.4310344827586268,
+      "volume": 51793,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-82.7"
+      },
+      "dividendYield": "8.58"
+    },
+    {
+      "code": "1806",
+      "name": "冠軍",
+      "sector": "營建",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 12,
+      "price": 8.95,
+      "change": -0.02000000000000135,
+      "changePercent": -0.22296544035675975,
+      "volume": 251367,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-80.1"
+      },
+      "dividendYield": "8.94"
+    },
+    {
+      "code": "1808",
+      "name": "德昌",
+      "sector": "營建",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 11,
+      "price": 30.1,
+      "change": -0.5499999999999972,
+      "changePercent": -1.794453507340937,
+      "volume": 2731872,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-66.6"
+      },
+      "dividendYield": "4.98"
+    },
+    {
+      "code": "1810",
+      "name": "宏洲",
+      "sector": "營建",
+      "eps": 2,
+      "dividend": 0.5,
+      "pe": 10,
+      "price": 19,
+      "change": -0.25,
+      "changePercent": -1.2987012987012987,
+      "volume": 907481,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 17,
+        "dividend4": 13
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-57.8"
+      },
+      "dividendYield": "2.63"
+    },
+    {
+      "code": "1815",
+      "name": "富旺",
+      "sector": "營建",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 12,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "0051",
+      "name": "元大S&P500",
+      "sector": "ETF",
+      "eps": 8,
+      "dividend": 2,
+      "pe": 20,
+      "price": 113.75,
+      "change": 1.6500000000000057,
+      "changePercent": 1.4719000892060712,
+      "volume": 93484,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-36.8"
+      },
+      "dividendYield": "1.76"
+    },
+    {
+      "code": "0052",
+      "name": "富邦科技",
+      "sector": "ETF",
+      "eps": 6,
+      "dividend": 1.5,
+      "pe": 18,
+      "price": 48.42,
+      "change": 0.03999999999999915,
+      "changePercent": 0.08267879288962204,
+      "volume": 62009879,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-64.1"
+      },
+      "dividendYield": "3.10"
+    },
+    {
+      "code": "0053",
+      "name": "元大MSCI",
+      "sector": "ETF",
+      "eps": 4,
+      "dividend": 1,
+      "pe": 16,
+      "price": 179.4,
+      "change": null,
+      "changePercent": null,
+      "volume": 23372,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "99.3"
+      },
+      "dividendYield": "0.56"
+    },
+    {
+      "code": "0054",
+      "name": "元大ESG",
+      "sector": "ETF",
+      "eps": 3,
+      "dividend": 0.8,
+      "pe": 15,
+      "price": 28.25,
+      "change": null,
+      "changePercent": null,
+      "volume": 87963,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-58.1"
+      },
+      "dividendYield": "2.83"
+    },
+    {
+      "code": "0055",
+      "name": "元大高股息",
+      "sector": "ETF",
+      "eps": 2.5,
+      "dividend": 1.8,
+      "pe": 16,
+      "price": 34.78,
+      "change": 0.7800000000000011,
+      "changePercent": 2.294117647058827,
+      "volume": 437090,
+      "fairPrice": {
+        "per15": 38,
+        "per20": 50,
+        "per25": 63,
+        "per30": 75,
+        "dividend3": 60,
+        "dividend4": 45
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-38.4"
+      },
+      "dividendYield": "5.18"
+    },
+    {
+      "code": "0057",
+      "name": "富邦影視",
+      "sector": "ETF",
+      "eps": 2,
+      "dividend": 0.5,
+      "pe": 18,
+      "price": 239.7,
+      "change": 0.8999999999999773,
+      "changePercent": 0.3768844221105432,
+      "volume": 6119,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 17,
+        "dividend4": 13
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "432.7"
+      },
+      "dividendYield": "0.21"
+    },
+    {
+      "code": "0058",
+      "name": "富邦發達",
+      "sector": "ETF",
+      "eps": 3,
+      "dividend": 0.8,
+      "pe": 17,
+      "price": 49,
+      "change": null,
+      "changePercent": null,
+      "volume": 22000,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-27.4"
+      },
+      "dividendYield": "1.63"
+    },
+    {
+      "code": "0059",
+      "name": "富邦金融",
+      "sector": "ETF",
+      "eps": 3,
+      "dividend": 0.8,
+      "pe": 16,
+      "price": 49.55,
+      "change": null,
+      "changePercent": null,
+      "volume": 11000,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-26.6"
+      },
+      "dividendYield": "1.61"
+    },
+    {
+      "code": "006203",
+      "name": "元大台灣50正2",
+      "sector": "ETF",
+      "eps": 5,
+      "dividend": 1,
+      "pe": 20,
+      "price": 146.3,
+      "change": -0.39999999999997726,
+      "changePercent": -0.2726653033401345,
+      "volume": 22154,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "30.0"
+      },
+      "dividendYield": "0.68"
+    },
+    {
+      "code": "00633L",
+      "name": "元大S&P500正2",
+      "sector": "ETF",
+      "eps": 4,
+      "dividend": 0.8,
+      "pe": 22,
+      "price": 45.9,
+      "change": -1.3200000000000003,
+      "changePercent": -2.7954256670902167,
+      "volume": 5476898,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-49.0"
+      },
+      "dividendYield": "1.74"
+    },
+    {
+      "code": "00669B",
+      "name": "富邦美債1-3",
+      "sector": "ETF",
+      "eps": 1,
+      "dividend": 0.3,
+      "pe": 18,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 15,
+        "per20": 20,
+        "per25": 25,
+        "per30": 30,
+        "dividend3": 10,
+        "dividend4": 8
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "00687B",
+      "name": "元大美債1-3",
+      "sector": "ETF",
+      "eps": 1,
+      "dividend": 0.3,
+      "pe": 18,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 15,
+        "per20": 20,
+        "per25": 25,
+        "per30": 30,
+        "dividend3": 10,
+        "dividend4": 8
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "00891",
+      "name": "中信關鍵半導體",
+      "sector": "ETF",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 18,
+      "price": 25.33,
+      "change": -0.5900000000000034,
+      "changePercent": -2.2762345679012475,
+      "volume": 30914338,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-43.7"
+      },
+      "dividendYield": "3.16"
+    },
+    {
+      "code": "00892",
+      "name": "中信臺灣精選",
+      "sector": "ETF",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 16,
+      "price": 28.71,
+      "change": 0.75,
+      "changePercent": 2.682403433476395,
+      "volume": 1362735,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-36.2"
+      },
+      "dividendYield": "2.79"
+    },
+    {
+      "code": "00893",
+      "name": "中信高股息100",
+      "sector": "ETF",
+      "eps": 1.8,
+      "dividend": 1,
+      "pe": 15,
+      "price": 35.05,
+      "change": -0.12000000000000455,
+      "changePercent": -0.3411998862667175,
+      "volume": 1445828,
+      "fairPrice": {
+        "per15": 27,
+        "per20": 36,
+        "per25": 45,
+        "per30": 54,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-13.5"
+      },
+      "dividendYield": "2.85"
+    },
+    {
+      "code": "00895",
+      "name": "富邦精準",
+      "sector": "ETF",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 17,
+      "price": 42.63,
+      "change": 0.13000000000000256,
+      "changePercent": 0.3058823529411825,
+      "volume": 908658,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-5.3"
+      },
+      "dividendYield": "1.88"
+    },
+    {
+      "code": "00896",
+      "name": "富邦富時不動產",
+      "sector": "ETF",
+      "eps": 2.5,
+      "dividend": 1,
+      "pe": 16,
+      "price": 22.68,
+      "change": 0.14999999999999858,
+      "changePercent": 0.6657789613848138,
+      "volume": 2691270,
+      "fairPrice": {
+        "per15": 38,
+        "per20": 50,
+        "per25": 63,
+        "per30": 75,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-59.9"
+      },
+      "dividendYield": "4.41"
+    },
+    {
+      "code": "00900",
+      "name": "富邦特選高股息30",
+      "sector": "ETF",
+      "eps": 2,
+      "dividend": 1.2,
+      "pe": 16,
+      "price": 15.07,
+      "change": 0.17999999999999972,
+      "changePercent": 1.2088650100738731,
+      "volume": 29175813,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-66.5"
+      },
+      "dividendYield": "7.96"
+    },
+    {
+      "code": "00915",
+      "name": "中信小資高價30",
+      "sector": "ETF",
+      "eps": 3,
+      "dividend": 1,
+      "pe": 18,
+      "price": 24.84,
+      "change": 0.1999999999999993,
+      "changePercent": 0.8116883116883088,
+      "volume": 9924223,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 33,
+        "dividend4": 25
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-63.2"
+      },
+      "dividendYield": "4.03"
+    },
+    {
+      "code": "00918",
+      "name": "大華優利高股息30",
+      "sector": "ETF",
+      "eps": 2.5,
+      "dividend": 1.2,
+      "pe": 16,
+      "price": 23.93,
+      "change": 0.1999999999999993,
+      "changePercent": 0.8428150021070345,
+      "volume": 29245757,
+      "fairPrice": {
+        "per15": 38,
+        "per20": 50,
+        "per25": 63,
+        "per30": 75,
+        "dividend3": 40,
+        "dividend4": 30
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-57.6"
+      },
+      "dividendYield": "5.01"
+    },
+    {
+      "code": "00922",
+      "name": "中信綠能及電動車",
+      "sector": "ETF",
+      "eps": 2,
+      "dividend": 0.8,
+      "pe": 18,
+      "price": 31.91,
+      "change": 0.14999999999999858,
+      "changePercent": 0.4722921914357638,
+      "volume": 11289712,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 27,
+        "dividend4": 20
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-29.1"
+      },
+      "dividendYield": "2.51"
+    },
+    {
+      "code": "00937B",
+      "name": "群益ESG投等債20+",
+      "sector": "ETF",
+      "eps": 1.2,
+      "dividend": 0.5,
+      "pe": 16,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 18,
+        "per20": 24,
+        "per25": 30,
+        "per30": 36,
+        "dividend3": 17,
+        "dividend4": 13
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "2314",
+      "name": "台灣大",
+      "sector": "通信",
+      "eps": 5,
+      "dividend": 4.3,
+      "pe": 16,
+      "price": 20.4,
+      "change": -0.40000000000000213,
+      "changePercent": -1.9230769230769333,
+      "volume": 317908,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 143,
+        "dividend4": 108
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-81.9"
+      },
+      "dividendYield": "21.08"
+    },
+    {
+      "code": "2324",
+      "name": "中華電",
+      "sector": "通信",
+      "eps": 5,
+      "dividend": 4.3,
+      "pe": 15,
+      "price": 31.65,
+      "change": 1.5499999999999972,
+      "changePercent": 5.149501661129558,
+      "volume": 72014768,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 143,
+        "dividend4": 108
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-71.9"
+      },
+      "dividendYield": "13.59"
+    },
+    {
+      "code": "2345",
+      "name": "智邦",
+      "sector": "通信",
+      "eps": 8,
+      "dividend": 3,
+      "pe": 16,
+      "price": 1400,
+      "change": -50,
+      "changePercent": -3.4482758620689653,
+      "volume": 5710243,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 100,
+        "dividend4": 75
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "677.8"
+      },
+      "dividendYield": "0.21"
+    },
+    {
+      "code": "2384",
+      "name": "遠傳",
+      "sector": "通信",
+      "eps": 3,
+      "dividend": 2.8,
+      "pe": 17,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 45,
+        "per20": 60,
+        "per25": 75,
+        "per30": 90,
+        "dividend3": 93,
+        "dividend4": 70
+      },
+      "evaluation": {
+        "status": "資料不足",
+        "color": "#888"
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "2412",
+      "name": "中華電",
+      "sector": "通信",
+      "eps": 5,
+      "dividend": 4.3,
+      "pe": 15,
+      "price": 134,
+      "change": -2,
+      "changePercent": -1.4705882352941175,
+      "volume": 27695847,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 143,
+        "dividend4": 108
+      },
+      "evaluation": {
+        "status": "⚠️ 略高於合理",
+        "color": "#ffa502",
+        "premium": "19.1"
+      },
+      "dividendYield": "3.21"
+    },
+    {
+      "code": "3024",
+      "name": "職威",
+      "sector": "通信",
+      "eps": 2,
+      "dividend": 0.5,
+      "pe": 14,
+      "price": 10.5,
+      "change": null,
+      "changePercent": null,
+      "volume": 757162,
+      "fairPrice": {
+        "per15": 30,
+        "per20": 40,
+        "per25": 50,
+        "per30": 60,
+        "dividend3": 17,
+        "dividend4": 13
+      },
+      "evaluation": {
+        "status": "🎢 低於合理價",
+        "color": "#00ff88",
+        "premium": "-76.7"
+      },
+      "dividendYield": "4.76"
+    },
+    {
+      "code": "3045",
+      "name": "台灣大",
+      "sector": "通信",
+      "eps": 5,
+      "dividend": 4.3,
+      "pe": 16,
+      "price": 107.5,
+      "change": -1,
+      "changePercent": -0.9216589861751152,
+      "volume": 12474669,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 143,
+        "dividend4": 108
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-4.4"
+      },
+      "dividendYield": "4.00"
+    },
+    {
+      "code": "3105",
+      "name": "穩懋",
+      "sector": "通信",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 18,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "5347",
+      "name": "世界",
+      "sector": "半導體",
+      "eps": 12,
+      "dividend": 4,
+      "pe": 14,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 180,
+        "per20": 240,
+        "per25": 300,
+        "per30": 360,
+        "dividend3": 133,
+        "dividend4": 100
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "4961",
+      "name": "天鈺",
+      "sector": "半導體",
+      "eps": 8,
+      "dividend": 3,
+      "pe": 12,
+      "price": 148.5,
+      "change": null,
+      "changePercent": null,
+      "volume": 1112983,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 100,
+        "dividend4": 75
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "-17.5"
+      },
+      "dividendYield": "2.02"
+    },
+    {
+      "code": "6462",
+      "name": "神盾",
+      "sector": "半導體",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 18,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6515",
+      "name": "穎崴",
+      "sector": "半導體",
+      "eps": 15,
+      "dividend": 5,
+      "pe": 20,
+      "price": 5115,
+      "change": 115,
+      "changePercent": 2.3,
+      "volume": 1012627,
+      "fairPrice": {
+        "per15": 225,
+        "per20": 300,
+        "per25": 375,
+        "per30": 450,
+        "dividend3": 167,
+        "dividend4": 125
+      },
+      "evaluation": {
+        "status": "🔥 偏高風險",
+        "color": "#ff4757",
+        "premium": "1415.6"
+      },
+      "dividendYield": "0.10"
+    },
+    {
+      "code": "6643",
+      "name": "M31",
+      "sector": "半導體",
+      "eps": 8,
+      "dividend": 2,
+      "pe": 25,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 120,
+        "per20": 160,
+        "per25": 200,
+        "per30": 240,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "6787",
+      "name": "十銓",
+      "sector": "半導體",
+      "eps": 5,
+      "dividend": 2,
+      "pe": 14,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 75,
+        "per20": 100,
+        "per25": 125,
+        "per30": 150,
+        "dividend3": 67,
+        "dividend4": 50
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    },
+    {
+      "code": "8039",
+      "name": "台虹",
+      "sector": "半導體",
+      "eps": 4,
+      "dividend": 1.5,
+      "pe": 12,
+      "price": 97,
+      "change": 8.799999999999997,
+      "changePercent": 9.977324263038545,
+      "volume": 22372208,
+      "fairPrice": {
+        "per15": 60,
+        "per20": 80,
+        "per25": 100,
+        "per30": 120,
+        "dividend3": 50,
+        "dividend4": 38
+      },
+      "evaluation": {
+        "status": "✅ 合理區間",
+        "color": "#00d9ff",
+        "premium": "7.8"
+      },
+      "dividendYield": "1.55"
+    },
+    {
+      "code": "8069",
+      "name": "元太",
+      "sector": "半導體",
+      "eps": 6,
+      "dividend": 2.5,
+      "pe": 15,
+      "price": null,
+      "change": null,
+      "changePercent": null,
+      "volume": null,
+      "fairPrice": {
+        "per15": 90,
+        "per20": 120,
+        "per25": 150,
+        "per30": 180,
+        "dividend3": 83,
+        "dividend4": 63
+      },
+      "evaluation": {
+        "status": "待更新",
+        "color": "#888",
+        "premium": 0
+      },
+      "dividendYield": null
+    }
+  ]
+}

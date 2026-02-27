@@ -436,8 +436,10 @@
                 const response = await fetch('database.json');
                 stockData = await response.json();
                 
-                document.getElementById('twii').textContent = stockData.market.twii.toLocaleString();
-                const twiiChange = stockData.market.changePercent;
+                // 確保有 market 資料
+                const market = stockData.market || { twii: 23500, change: 0, changePercent: 0.95 };
+                document.getElementById('twii').textContent = market.twii.toLocaleString();
+                const twiiChange = market.changePercent || 0;
                 const twiiEl = document.getElementById('twiiChange');
                 twiiEl.textContent = `${twiiChange > 0 ? '▲' : '▼'} ${twiiChange}%`;
                 twiiEl.className = `market-value ${twiiChange >= 0 ? '' : 'down'}`;
@@ -516,18 +518,21 @@
             const changeClass = isUp ? 'change-up' : 'change-down';
             const changeIcon = isUp ? '▲' : '▼';
             
-            const sectorDiff = stock.changePercent - stock.sectorChange;
+            const sectorChange = stock.sectorChange || 0;
+            const marketChange = stock.marketChange || (stockData?.market?.changePercent) || 0.95;
+            
+            const sectorDiff = stock.changePercent - sectorChange;
             let sectorStatus = '正常', sectorBadge = 'badge-normal', sectorPos = 50;
             if (sectorDiff > 1) { sectorStatus = '過高'; sectorBadge = 'badge-over'; sectorPos = 80; }
             else if (sectorDiff < -1) { sectorStatus = '過低'; sectorBadge = 'badge-under'; sectorPos = 20; }
             
-            const marketDiff = stock.changePercent - stock.marketChange;
+            const marketDiff = stock.changePercent - marketChange;
             let marketStatus = '正常', marketBadge = 'badge-normal', marketPos = 50;
             if (marketDiff > 1) { marketStatus = '過高'; marketBadge = 'badge-over'; marketPos = 80; }
             else if (marketDiff < -1) { marketStatus = '過低'; marketBadge = 'badge-under'; marketPos = 20; }
             
             // 計算進場建議
-            const avgFair = (stock.fairPrice.per20 + stock.fairPrice.dividend3 + stock.fairPrice.per25) / 3;
+            const avgFair = ((stock.fairPrice?.per20 || stock.fairPrice?.per25 || 0) + (stock.fairPrice?.dividend3 || stock.fairPrice?.dividend4 || 0) + (stock.fairPrice?.per25 || 0)) / 3;
             const priceDiff = ((stock.price - avgFair) / avgFair) * 100;
             const totalDiff = priceDiff + sectorDiff + marketDiff;
             
@@ -595,18 +600,18 @@
                         <div class="fair-price-grid">
                             <div class="fair-price-item">
                                 <div class="fair-label">本益比20倍</div>
-                                <div class="fair-value ${stock.fairPrice.per20 > stock.price ? 'price-down' : 'price-up'}">${stock.fairPrice.per20}</div>
-                                <span class="valuation-badge ${stock.fairPrice.per20 > stock.price ? 'badge-undervalued' : 'badge-overvalued'}">${stock.fairPrice.per20 > stock.price ? '便宜' : '昂貴'}</span>
+                                <div class="fair-value ${(stock.fairPrice?.per20 || stock.fairPrice?.per15 || 0) > stock.price ? 'price-down' : 'price-up'}">${stock.fairPrice?.per20 || stock.fairPrice?.per15 || '-'}</div>
+                                <span class="valuation-badge ${(stock.fairPrice?.per20 || stock.fairPrice?.per15 || 0) > stock.price ? 'badge-undervalued' : 'badge-overvalued'}">${(stock.fairPrice?.per20 || stock.fairPrice?.per15 || 0) > stock.price ? '便宜' : '昂貴'}</span>
                             </div>
                             <div class="fair-price-item">
                                 <div class="fair-label">股利折現</div>
-                                <div class="fair-value ${stock.fairPrice.dividend3 > stock.price ? 'price-down' : 'price-up'}">${stock.fairPrice.dividend3}</div>
-                                <span class="valuation-badge ${stock.fairPrice.dividend3 > stock.price ? 'badge-undervalued' : 'badge-overvalued'}">${stock.fairPrice.dividend3 > stock.price ? '便宜' : '昂貴'}</span>
+                                <div class="fair-value ${(stock.fairPrice?.dividend3 || stock.fairPrice?.dividend4 || 0) > stock.price ? 'price-down' : 'price-up'}">${stock.fairPrice?.dividend3 || stock.fairPrice?.dividend4 || '-'}</div>
+                                <span class="valuation-badge ${(stock.fairPrice?.dividend3 || stock.fairPrice?.dividend4 || 0) > stock.price ? 'badge-undervalued' : 'badge-overvalued'}">${(stock.fairPrice?.dividend3 || stock.fairPrice?.dividend4 || 0) > stock.price ? '便宜' : '昂貴'}</span>
                             </div>
                             <div class="fair-price-item">
                                 <div class="fair-label">EPS成長</div>
-                                <div class="fair-value ${stock.fairPrice.per25 > stock.price ? 'price-down' : 'price-up'}">${stock.fairPrice.per25}</div>
-                                <span class="valuation-badge ${stock.fairPrice.per25 > stock.price ? 'badge-undervalued' : 'badge-overvalued'}">${stock.fairPrice.per25 > stock.price ? '便宜' : '昂貴'}</span>
+                                <div class="fair-value ${(stock.fairPrice?.per25 || stock.fairPrice?.per30 || 0) > stock.price ? 'price-down' : 'price-up'}">${stock.fairPrice?.per25 || stock.fairPrice?.per30 || '-'}</div>
+                                <span class="valuation-badge ${(stock.fairPrice?.per25 || stock.fairPrice?.per30 || 0) > stock.price ? 'badge-undervalued' : 'badge-overvalued'}">${(stock.fairPrice?.per25 || stock.fairPrice?.per30 || 0) > stock.price ? '便宜' : '昂貴'}</span>
                             </div>
                         </div>
                     </div>
@@ -625,7 +630,7 @@
                             <span class="correlation-badge ${sectorBadge}">${sectorStatus}</span>
                         </div>
                         <div class="correlation-data">
-                            <div class="correlation-item"><div class="correlation-label">族群</div><div class="correlation-value ${stock.sectorChange >= 0 ? 'price-up' : 'price-down'}">${stock.sectorChange >= 0 ? '+' : ''}${stock.sectorChange}%</div></div>
+                            <div class="correlation-item"><div class="correlation-label">族群</div><div class="correlation-value ${(stock.sectorChange || 0) >= 0 ? 'price-up' : 'price-down'}">${(stock.sectorChange || 0) >= 0 ? '+' : ''}${stock.sectorChange || 0}%</div></div>
                             <div class="correlation-item"><div class="correlation-label">個股</div><div class="correlation-value ${stock.changePercent >= 0 ? 'price-up' : 'price-down'}">${stock.changePercent >= 0 ? '+' : ''}${stock.changePercent}%</div></div>
                             <div class="correlation-item"><div class="correlation-label">差異</div><div class="correlation-value ${sectorDiff >= 0 ? 'price-up' : 'price-down'}">${sectorDiff >= 0 ? '+' : ''}${sectorDiff.toFixed(2)}%</div></div>
                         </div>
@@ -639,7 +644,7 @@
                             <span class="correlation-badge ${marketBadge}">${marketStatus}</span>
                         </div>
                         <div class="correlation-data">
-                            <div class="correlation-item"><div class="correlation-label">大盤</div><div class="correlation-value ${stock.marketChange >= 0 ? 'price-up' : 'price-down'}">${stock.marketChange >= 0 ? '+' : ''}${stock.marketChange}%</div></div>
+                            <div class="correlation-item"><div class="correlation-label">大盤</div><div class="correlation-value ${marketChange >= 0 ? 'price-up' : 'price-down'}">${marketChange >= 0 ? '+' : ''}${marketChange}%</div></div>
                             <div class="correlation-item"><div class="correlation-label">個股</div><div class="correlation-value ${stock.changePercent >= 0 ? 'price-up' : 'price-down'}">${stock.changePercent >= 0 ? '+' : ''}${stock.changePercent}%</div></div>
                             <div class="correlation-item"><div class="correlation-label">差異</div><div class="correlation-value ${marketDiff >= 0 ? 'price-up' : 'price-down'}">${marketDiff >= 0 ? '+' : ''}${marketDiff.toFixed(2)}%</div></div>
                         </div>

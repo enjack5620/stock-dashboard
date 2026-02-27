@@ -381,7 +381,7 @@
             <button class="search-btn" onclick="searchStock()">🔍</button>
         </div>
         
-        <!-- 快速選擇 -->
+        <!-- 自選股 -->
         <div class="quick-stocks" id="quickStocks">
             <button class="quick-btn active" data-code="2330">2330 台積電</button>
             <button class="quick-btn" data-code="2317">2317 鴻海</button>
@@ -403,7 +403,12 @@
     
     <script>
         let stockData = null;
-        let selectedStocks = ['2330', '2317'];
+        let selectedStocks = JSON.parse(localStorage.getItem("myStocks")) || ["2330", "2317"];
+        
+        // 儲存自選股
+        function saveMyStocks() {
+            localStorage.setItem("myStocks", JSON.stringify(selectedStocks));
+        }
         
         // 初始化
         async function init() {
@@ -418,6 +423,7 @@
                         if (selectedStocks.length >= 2) selectedStocks.shift();
                         selectedStocks.push(code);
                     }
+                    saveMyStocks(); // 儲存自選股
                     document.querySelectorAll('.quick-btn').forEach(b => b.classList.toggle('active', selectedStocks.includes(b.dataset.code)));
                     renderStocks();
                 });
@@ -521,7 +527,7 @@
             else if (marketDiff < -1) { marketStatus = '過低'; marketBadge = 'badge-under'; marketPos = 20; }
             
             // 計算進場建議
-            const avgFair = (stock.fairPrice.per20 + stock.fairPrice.dividend3 + stock.fairPrice.growth) / 3;
+            const avgFair = (stock.fairPrice.per20 + stock.fairPrice.dividend3 + stock.fairPrice.per25) / 3;
             const priceDiff = ((stock.price - avgFair) / avgFair) * 100;
             const totalDiff = priceDiff + sectorDiff + marketDiff;
             
@@ -599,8 +605,8 @@
                             </div>
                             <div class="fair-price-item">
                                 <div class="fair-label">EPS成長</div>
-                                <div class="fair-value ${stock.fairPrice.growth > stock.price ? 'price-down' : 'price-up'}">${stock.fairPrice.growth}</div>
-                                <span class="valuation-badge ${stock.fairPrice.growth > stock.price ? 'badge-undervalued' : 'badge-overvalued'}">${stock.fairPrice.growth > stock.price ? '便宜' : '昂貴'}</span>
+                                <div class="fair-value ${stock.fairPrice.per25 > stock.price ? 'price-down' : 'price-up'}">${stock.fairPrice.per25}</div>
+                                <span class="valuation-badge ${stock.fairPrice.per25 > stock.price ? 'badge-undervalued' : 'badge-overvalued'}">${stock.fairPrice.per25 > stock.price ? '便宜' : '昂貴'}</span>
                             </div>
                         </div>
                     </div>
@@ -696,3 +702,5 @@
     </script>
 </body>
 </html>
+
+

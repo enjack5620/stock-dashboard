@@ -435,8 +435,14 @@
         // 載入資料
         async function loadData() {
             try {
-                const response = await fetch('database.json');
-                stockData = await response.json();
+                // 優先使用 stockDatabase (來自 stock_database.js)
+                if (typeof stockDatabase !== 'undefined') {
+                    stockData = { stocks: stockDatabase, market: { twii: 23500, change: 0, changePercent: 0.95 }, lastUpdate: new Date().toISOString() };
+                } else {
+                    // 備用：從 database.json 讀取
+                    const response = await fetch('database.json');
+                    stockData = await response.json();
+                }
                 
                 // 確保有 market 資料
                 const market = stockData.market || { twii: 23500, change: 0, changePercent: 0.95 };
@@ -507,8 +513,20 @@
             const container = document.getElementById('stockContainer');
             container.innerHTML = '';
             
+            // 支援兩種格式：陣列或物件
+            let stocksArray = [];
+            if (Array.isArray(stockData.stocks)) {
+                stocksArray = stockData.stocks;
+            } else if (typeof stockData.stocks === 'object') {
+                // 從物件轉為陣列
+                stocksArray = Object.keys(stockData.stocks).map(code => ({
+                    code: code,
+                    ...stockData.stocks[code]
+                }));
+            }
+            
             selectedStocks.forEach(code => {
-                const stock = stockData.stocks.find(s => s.code === code);
+                const stock = stocksArray.find(s => s.code === code);
                 if (stock) container.innerHTML += createStockCard(stock);
             });
         }
@@ -660,6 +678,18 @@
         
         function searchStock() {
             const input = document.getElementById('stockSearch').value.trim().toUpperCase();
+            
+            // 支援兩種格式：陣列或物件
+            let stocksArray = [];
+            if (Array.isArray(stockData.stocks)) {
+                stocksArray = stockData.stocks;
+            } else if (typeof stockData.stocks === 'object') {
+                stocksArray = Object.keys(stockData.stocks).map(code => ({
+                    code: code,
+                    ...stockData.stocks[code]
+                }));
+            }
+            
             const nameToCode = {
                 '台積電':'2330','台積':'2330','2330':'2330',
                 '鴻海':'2317','2317':'2317',
@@ -679,10 +709,20 @@
             };
             
             let code = nameToCode[input] || input;
-            const stock = stockData.stocks.find(s => s.code === code);
+            
+            // 先嘗試直接用代號搜尋
+            let stock = stocksArray.find(s => s.code === code);
+            
+            // 如果沒找到，嘗試用名稱搜尋
+            if (!stock) {
+                stock = stocksArray.find(s => s.name && s.name.toUpperCase().includes(input));
+            }
+            if (!stock && stocksArray[code]) {
+                stock = { code: code, ...stocksArray[code] };
+            }
             
             if (stock) {
-                if (!selectedStocks.includes(code)) {
+                if (!selectedStocks.includes(stock.code)) {
                     if (selectedStocks.length >= 2) selectedStocks.shift();
                     selectedStocks.push(code);
                 }

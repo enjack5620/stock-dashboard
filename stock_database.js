@@ -62,6 +62,7 @@ const stockDatabase = {
     "8255": {name:"朋程", sector:"電子"},
     "8271": {name:"宇瞻", sector:"電子"},
     "4967": {name:"十銓", sector:"電子"},
+    "6787": {name:"晶瑞光", sector:"電子"},
     "4916": {name:"事欣科", sector:"電子"},
     "5498": {name:"凱崴", sector:"電子"},
     "6285": {name:"啟碁", sector:"電子"},
